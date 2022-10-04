@@ -1,0 +1,25 @@
+{
+  "name": "ojjo",
+  "version": "1.0.0",
+  "description": "jewelry store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Igor-Yarik/Ojjo.git"
+  },
+  "author": "Okay.in.ua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Igor-Yarik/Ojjo/issues"
+  },
+  "homepage": "https://github.com/Igor-Yarik/Ojjo#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.55.0"
+  }
+}

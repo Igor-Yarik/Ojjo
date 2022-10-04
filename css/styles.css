@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+body {
+  font-family: "Gilroy";
+}
+
+.container {
+  width: calc(100% - 30px);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@font-face {
+  font-family: "Noto Serif";
+  src: url("/fonts/NotoSerif-Bold.woff2") format("woff2"), url("/fonts/NotoSerif-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("/fonts/Gilroy-Medium.woff2") format("woff2"), url("/fonts/Gilroy-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("/fonts/Gilroy-Regular.woff2") format("woff2"), url("/fonts/Gilroy-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+header {
+  padding-top: 30px;
+  padding-bottom: 119px;
+  background-image: url("/images/head/bg.jpg");
+  height: 100vh;
+}
+
+.head nav {
+  display: none;
+}
+.head__menu {
+  display: none;
+}
+.head__main {
+  text-align: center;
+}
+.head__main__title {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 250px;
+  margin-bottom: 50px;
+}
+.head__main__catalog {
+  display: inline-flex;
+  align-content: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 15px 35px;
+  border: 1px solid #FFFFFF;
+  background: #333333;
+}
+.head__logo {
+  margin-left: 20px;
+}
+.head__brands {
+  display: none;
+}

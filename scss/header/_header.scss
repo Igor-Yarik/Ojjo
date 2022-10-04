@@ -1,0 +1,58 @@
+header {
+    padding-top: 30px;
+    padding-bottom: 119px;
+    background-image: url("/images/head/bg.jpg");
+    height: 100vh;
+}
+
+.head {    
+
+    nav {
+        display: none;
+    }
+
+    &__menu {
+        display: none;
+    }
+
+    &__main {
+        text-align: center;
+
+        &__title {
+            font-family: 'Noto Serif';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 49px;
+            text-align: center;
+            color: #FFFFFF;
+            margin-top: 250px;
+            margin-bottom: 50px;
+        }
+
+        &__catalog {    
+            display: inline-flex;
+            align-content: center;       
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            padding: 15px 35px; 
+            border: 1px solid #FFFFFF;
+            background: #333333;
+        }
+
+    }
+
+    &__logo {
+        margin-left: 20px;
+    }
+
+    &__brands {
+        display: none;  
+    }
+}
