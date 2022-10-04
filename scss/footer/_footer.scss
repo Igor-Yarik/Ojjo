@@ -1,0 +1,39 @@
+.footer {
+    margin-top: 80px;
+    margin-bottom: 20px;
+
+    &__head {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    
+        &__items {  
+            display: flex;
+            justify-content: flex-start;   
+            flex-direction: column;              
+            width: 25%; 
+        }
+
+        &__item {          
+            display: flex;
+            flex-direction: column;
+            
+            margin-top: 30px;
+        }
+    }
+
+    &__link {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color: #333333;
+        margin-bottom: 15px; 
+                
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+    }
+
+}
+

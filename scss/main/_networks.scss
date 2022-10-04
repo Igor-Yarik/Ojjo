@@ -1,0 +1,14 @@
+.networks {
+
+    margin-top: 120px;
+
+    &__items {
+        margin-top: 60px;
+        margin-bottom: 150px;
+    }
+
+    &__item {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

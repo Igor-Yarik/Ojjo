@@ -1,22 +1,63 @@
-header {
-    padding-top: 30px;
-    padding-bottom: 119px;
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-image: url("/images/head/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
+    padding-top: 25px;
 }
 
-.head {    
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-    nav {
-        display: none;
+    &__nav {
+        display: flex;
+
+        &__link {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            color: #FFFFFF;
+            margin-right: 40px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
     }
 
     &__menu {
-        display: none;
+        display: flex;
+
+        &__link {
+            display: flex;
+            align-items: center;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            text-align: right;
+            color: #FFFFFF;
+            margin-right: 40px;
+
+            &:nth-child(2) {
+                margin-right: 44px;
+            }
+
+            &:nth-child(3) {
+                margin-right: 29px;
+            }
+        }
     }
 
     &__main {
-        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
 
         &__title {
             font-family: 'Noto Serif';
@@ -26,14 +67,11 @@ header {
             line-height: 49px;
             text-align: center;
             color: #FFFFFF;
-            margin-top: 250px;
+            margin-top: 400px;
             margin-bottom: 50px;
         }
 
-        &__catalog {    
-            display: inline-flex;
-            align-content: center;       
-            font-style: normal;
+        &__catalog {
             font-weight: 500;
             font-size: 18px;
             line-height: 21px;
@@ -41,18 +79,42 @@ header {
             letter-spacing: 0.1em;
             text-transform: uppercase;
             color: #FFFFFF;
-            padding: 15px 35px; 
-            border: 1px solid #FFFFFF;
+            padding: 15px 35px;
             background: #333333;
+            border: 1px solid #FFFFFF;
         }
-
-    }
-
-    &__logo {
-        margin-left: 20px;
     }
 
     &__brands {
-        display: none;  
+        display: flex;
+        justify-content: center;
+        border-top: 1px solid #FFFF;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        &__item {
+            display: flex;
+            border-right: 1px solid #FFFFFF;
+
+            img {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+
+            &:first-child {
+
+                img {
+                    padding-left: 0;
+                }
+            }
+
+            &:last-child {
+                border-right: none;
+
+                img {
+                padding-right: 0;
+                }
+            }
+        }
     }
 }

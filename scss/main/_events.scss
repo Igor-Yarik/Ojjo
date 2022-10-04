@@ -1,0 +1,114 @@
+.events {
+    margin-top: 100px;
+    margin-bottom: 120px;
+
+    &__menu {     
+        display: flex;
+        justify-content: space-between;   
+        margin-top: 60px;
+        margin-bottom: 61px;
+
+        &__item {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 165px;
+            height: 55px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #333333;
+            border: 1px solid #D6D6D6;
+            background: #fff; 
+
+            &--active {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 165px;
+                height: 61px;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 21px;
+                text-align: center;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                background: #333333;
+            }
+
+
+            
+            &::before {
+                position: absolute;
+                content: '';
+                top: 3px;
+                left: 3px;
+                right: 0;
+                bottom: 0;
+                width: 164px;
+                height: 54px;
+                border: 1px solid #D6D6D6;
+            }
+
+            &:hover {
+                box-shadow: 4px 4px 0 0 #333333;
+            }
+
+        }
+    }
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 30px;
+
+    }
+
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        width: 350px;
+        height: 280px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding-bottom: 30px;
+
+        &:nth-child(1) {
+            background-image: url("/images/events/events_01.png");
+        }
+
+        &:nth-child(2) {
+            background-image: url("/images/events/events_02.png");
+        }
+
+        &:nth-child(3) {
+            background-image: url("/images/events/events_03.png");
+        }
+
+        &:nth-child(4) {
+            background-image: url("/images/events/events_04.png");
+        }
+
+        &:nth-child(5) {
+            background-image: url("/images/events/events_05.png");
+        }
+
+        &:nth-child(6) {
+            background-image: url("/images/events/events_06.png");
+        }
+
+    }
+}
