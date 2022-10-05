@@ -1,11 +1,12 @@
 .footer {
     margin-top: 80px;
-    margin-bottom: 20px;
+    /* margin-bottom: 60px; */
 
     &__head {
         display: flex;
         justify-content: space-between;
         gap: 30px;
+        margin-bottom: 60px;
 
         &__items {
             display: flex;
@@ -51,6 +52,26 @@
         display: flex;
         margin-top: 25px;
         gap: 21px;
+    }
+
+    &__main {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-top: 1px solid #333333;
+
+        &__link {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            color: #333333;           
+
+            &:last-of-type {
+                font-weight: 600;
+                text-decoration-line: underline;
+            }
+        }
     }
 }
 
