@@ -264,22 +264,22 @@ body {
   padding-bottom: 30px;
 }
 .events__item:nth-child(1) {
-  background-image: url("/images/events/events_01.png");
+  background-image: url("../images/events/events_01.png");
 }
 .events__item:nth-child(2) {
-  background-image: url("/images/events/events_02.png");
+  background-image: url("../images/events/events_02.png");
 }
 .events__item:nth-child(3) {
-  background-image: url("/images/events/events_03.png");
+  background-image: url("../images/events/events_03.png");
 }
 .events__item:nth-child(4) {
-  background-image: url("/images/events/events_04.png");
+  background-image: url("../images/events/events_04.png");
 }
 .events__item:nth-child(5) {
-  background-image: url("/images/events/events_05.png");
+  background-image: url("../images/events/events_05.png");
 }
 .events__item:nth-child(6) {
-  background-image: url("/images/events/events_06.png");
+  background-image: url("../images/events/events_06.png");
 }
 
 .salons {
@@ -289,7 +289,7 @@ body {
   align-items: center;
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image: url("/images/salons/bg.png");
+  background-image: url("../images/salons/bg.png");
 }
 .salons__text {
   width: 730px;
@@ -341,17 +341,17 @@ body {
   color: #FFFFFF;
 }
 .blog__item:nth-child(1) {
-  background-image: url("/images/blog/blog_01.png");
+  background-image: url("../images/blog/blog_01.png");
   padding-left: 98px;
   padding-right: 98px;
 }
 .blog__item:nth-child(2) {
-  background-image: url("/images/blog/blog_02.png");
+  background-image: url("../images/blog/blog_02.png");
   padding-left: 73px;
   padding-right: 73px;
 }
 .blog__item:nth-child(3) {
-  background-image: url("/images/blog/blog_03.png");
+  background-image: url("../images/blog/blog_03.png");
   padding-left: 72px;
   padding-right: 72px;
 }
@@ -382,7 +382,7 @@ body {
 }
 
 .mailing {
-  background-image: url("/images/salons/bg.png");
+  background-image: url("../images/salons/bg.png");
   padding-top: 100px;
   padding-bottom: 120px;
 }
@@ -475,4 +475,27 @@ body {
 }
 .footer__link:last-child {
   margin-bottom: 0;
+}
+.footer__link__phone {
+  padding-left: 40px;
+  background-image: url("../images/footer/phone_icon.svg");
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+.footer__link__email {
+  padding-left: 40px;
+  background-image: url("../images/footer/email_icon.svg");
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+.footer__social {
+  display: flex;
+  margin-top: 25px;
+  gap: 21px;
+}
+
+.payment {
+  display: flex;
+  margin-top: 21px;
+  gap: 20px;
 }
