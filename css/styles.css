@@ -448,7 +448,6 @@ body {
 
 .footer {
   margin-top: 80px;
-  /* margin-bottom: 60px; */
 }
 .footer__head {
   display: flex;
@@ -516,4 +515,133 @@ body {
   display: flex;
   margin-top: 21px;
   gap: 20px;
+}
+
+.header__pages {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #333333;
+  padding-top: 27px;
+  padding-bottom: 32px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head__nav {
+  display: flex;
+}
+.head__nav__link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin-right: 40px;
+}
+.head__nav__link:last-child {
+  margin-right: 0;
+}
+.head__menu {
+  display: flex;
+}
+.head__menu__link {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: right;
+  color: #FFFFFF;
+  margin-right: 40px;
+}
+.head__menu__link:nth-child(2) {
+  margin-right: 44px;
+}
+.head__menu__link:nth-child(3) {
+  margin-right: 29px;
+}
+
+.catalog {
+  margin-top: 100px;
+  text-align: center;
+}
+.catalog__items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.catalog__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33.33%;
+  padding: 35px;
+  transition: all 0.4s;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.catalog__item__product {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #333333;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.catalog__item__brand {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 15px;
+}
+.catalog__item__price {
+  display: flex;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  background-color: #333333;
+  border: 1px solid #FFFFFF;
+}
+.catalog__item:hover {
+  background-color: rgba(51, 51, 51, 0.1);
+  transition: all 0.4s;
+}
+.catalog__item__more {
+  display: inline-flex;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 15px 35px;
+  background-color: #333333;
+  border: 1px solid #FFFFFF;
+}
+.catalog__form {
+  display: flex;
+  justify-content: space-between;
+}
+.catalog__form select {
+  font-family: "Gilroy";
+  border: none;
+  border-bottom: 1px solid #D6D6D6;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #333333;
+  padding-bottom: 10px;
+  width: 160px;
 }

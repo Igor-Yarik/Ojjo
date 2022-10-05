@@ -1,0 +1,53 @@
+.header__pages {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #333333;
+    padding-top: 27px;
+    padding-bottom: 32px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__nav {
+        display: flex;
+
+        &__link {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            color: #FFFFFF;
+            margin-right: 40px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    &__menu {
+        display: flex;
+
+        &__link {
+            display: flex;
+            align-items: center;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            text-align: right;
+            color: #FFFFFF;
+            margin-right: 40px;
+
+            &:nth-child(2) {
+                margin-right: 44px;
+            }
+
+            &:nth-child(3) {
+                margin-right: 29px;
+            }
+        }
+    }    
+}
